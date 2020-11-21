@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CommonDefines.hpp" />
+    <ClInclude Include="json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonConfig.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSystem.hpp" />
+    <ClInclude Include="DateTime.hpp" />
+    <ClInclude Include="Util.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JsonConfig.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSystem.cpp" />
+    <ClCompile Include="Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{4fa418f4-7e58-41ed-994a-9e2e239add68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

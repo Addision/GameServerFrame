@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NodeNet">
+      <UniqueIdentifier>{fcb9db8e-7aac-435f-a2f3-93c696ded933}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GateServer.hpp" />
+    <ClInclude Include="PlayerNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="GateNetClient.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="GateNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GateServer.cpp" />
+    <ClCompile Include="PlayerNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="GateNetClient.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="GateNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

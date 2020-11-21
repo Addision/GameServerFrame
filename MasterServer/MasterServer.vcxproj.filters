@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NodeNet">
+      <UniqueIdentifier>{6dcff746-a201-4c65-b2ab-166724a1290e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MasterNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MasterNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterServer.hpp" />
+  </ItemGroup>
+</Project>

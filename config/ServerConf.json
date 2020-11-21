@@ -1,0 +1,39 @@
+{
+    "MasterServer":{
+        "ip":"127.0.0.1",
+        "port":100001
+    },
+    "WorldServer":{
+        "ip":"127.0.0.1",
+        "port": 100002
+    },
+    "DBServer":{
+        "ip":"127.0.0.1",
+        "port": 100003,
+        "msg_port": 100004
+    },    
+    "GameServer":{
+        "ip":"127.0.0.1",
+        "port": 100005
+    },
+    "GameClient":{
+        "ip":"127.0.0.1",
+        "port": 100006
+    },
+    "MessageServer":{
+        "ip":"127.0.0.1",
+        "port": 100007,
+        "cli_port":100008
+    },
+    "Mysql":{
+        "dbname":"cgre_game",
+        "user":"cgre",
+        "password":"123456",
+        "ip":"127.0.0.1",
+        "port":3306
+    },
+    "Redis":{
+        "ip":"127.0.0.1",
+        "port":6379
+    }
+}

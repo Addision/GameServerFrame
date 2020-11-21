@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{755b2339-ac60-4c66-827e-ff16f2b3bbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{5dd5e666-7c5b-4609-b478-8a03d66bed14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msg">
+      <UniqueIdentifier>{ef8c4d2e-6901-49b5-8f55-483470b5ed84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com">
+      <UniqueIdentifier>{62a32f9f-df4a-4e3e-9732-32e5e3fbe5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{2d75ea8a-ffc1-4fe5-95b3-d2f294db9a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{00c45e32-f6d7-4b93-9a89-52fdef3bbaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{36184ac8-0c4f-4773-892c-3b8022c7f63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame">
+      <UniqueIdentifier>{d3b8d114-cd99-4f28-adc0-db71cde6ad86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{d9b724b5-d8e5-4dcc-b732-a8abc8e83fd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine_defines.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="com_random.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_singleton.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_num.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_less.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_unique_code.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_thread_pool.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_lock.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_string.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_guard.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com_func_wrap.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_buffer_factory.hpp">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="net_defines.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_base.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_service.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="com_util.hpp">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="net_socket.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_service_server.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_service_client.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_data_factory.hpp">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="net_session.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_defines.hpp">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_buffer.hpp">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_protobuf.hpp">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_stream_buffer.hpp">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_handler_manager.hpp">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="net_session_factory.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_dispatcher.hpp">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="io_epoll.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io_iocp.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io_service.hpp">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="node_net.hpp">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="node_client.hpp">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="server_base.hpp">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="client_base.hpp">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="net_nodes.pb.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="application.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="com_string.cpp">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="net_base.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_service.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="com_util.cpp">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="net_socket.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_service_server.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_service_client.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_session.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="mem_stream_buffer.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_dispatcher.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="io_epoll.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io_iocp.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io_service.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="node_net.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="node_client.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="server_base.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="client_base.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="net_nodes.pb.cc">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frame_nodes.proto">
+      <Filter>frame</Filter>
+    </None>
+  </ItemGroup>
+</Project>
